@@ -1,0 +1,32 @@
+Operadores       Símbolos
+suma________________+
+resta_______________--
+Multiplicación______x
+División____________/
+DivisiónEntero______//
+Exponente___________**
+Modulo______________%
+
+Ejemplo de operado de suma
+OperandoA = 3
+OperandoB = 5
+suma = OperandoA + OperandoB
+print('Resultado de suma:' suma)
+O tambien 
+print(f'Resultado suma: {suma}') La f de strings, es una notacion para cadenas y se lllama "f". Una cadena "f" contiene variables y exprsiones entre llaves({})
+
+
+Operadores de comparación 
+> ______________ Mayor que. "True" si el operador de la izquierda esta es estrictamente mayor que el de la derecha; "False" en caso contrario
+>=______________ Mayor o igual que. es "True" si el operador de la izquierda es mayor o igual que el de la derecha; "False" en caso contrario
+< ______________ Menor que. "True" si el operador de la izquierda es estrictamente menor que el de l derecha; "False" en caso contrario
+<= _____________ Menor o igual que. "True" si el operador de la izquierda es menor o igual que el de la derecha; False en caso contrario
+== _____________ Comparación. "True" si el operando de la izquierda es igual que el de la derecha; false en caso contrario
+!= _____________ Distinto. "True" si los operadores son distintos; False en caso contrario
+
+Ejemplo con comparación
+a = 4
+b = 6
+resultado = a == b
+print(f'el resultado es: {resultado}')
+El resultado es false, pues no son iguales los operadores. Se aplica lo mismo para todos los operadores
